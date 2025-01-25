@@ -1,0 +1,1 @@
+This repository contains a Perl script demonstrating a common off-by-one error when iterating through an array.  The `bug.pl` file shows the erroneous code, while `bugSolution.pl` provides a corrected version.  The error arises from using `$#array` to get the last index, and then including that index in the loop range.
